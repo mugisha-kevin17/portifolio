@@ -1,0 +1,284 @@
+.img_1{
+    border-radius: 80px;
+    height: 70px;
+    width: 70px;
+}
+nav,
+.nav-link{
+display: flex;
+
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.nav-link{
+    gap: 1rem;
+    list-style: none;
+    font-size: 1rem;
+}
+a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+.logo{
+    font-size: 1rem;
+}
+.logo:hover{
+    cursor: default;
+}
+.bd{
+    width: 70%;
+    background-color: rgba(204, 204, 204, 0.027);
+}
+
+.intro_img{
+    width: 60%;
+}
+.intro_img img{
+    height: 250px;
+    border: 10px solid rgb(239, 243, 242);
+    border-radius:100%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.intro_cont samp{
+    text-decoration: transparent;
+    font-weight:lighter;
+    font-size: small;
+}
+
+.intro{
+    display: flex;
+    width: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding-top: 130px;
+}
+.intro_sp{
+    width: 40%;
+}
+.intro_btn button{
+    border-radius: 40px;
+    width: 130px;
+    height: 35px;
+    border-color:rgb(199, 228, 224);
+    cursor: pointer;
+}
+.intro_btn{
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+}
+.contact_us_info img{
+    width: 50px;
+    margin-top: 20px;
+}
+.contact_us{
+    display: flex;
+}
+.contact_us_info{
+    width: 38%;
+}
+.contact_us_space{
+    width: 5%;
+}
+.contact_us_form h2{
+    padding-right: 330px;
+}
+.contact_us_form{
+    width: 67%;
+}
+.contact_us_form1{
+    display: flex;
+}
+.email{
+    display: flex;
+}
+.phone{
+    display: flex;
+}
+.address{
+    display: flex;
+}
+.phone_img{
+    width: 15%;
+}
+.phone_info{
+    width: 80%;
+}
+.g{
+    width: 5%;
+}
+.email_img{
+    width: 15%;
+}
+.email_info{
+    width: 80%;
+}
+.address_img{
+    width: 15%;
+}
+.address_info{
+    width: 80%;
+}
+.k{
+    width: 270px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-color: rgb(199, 228, 224);
+}
+textarea{
+    border-color: rgb(199, 228, 224);
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 270px;
+    height: 201px;
+}
+.notrob{
+    border: 1px solid black;
+    border-color: rgb(199, 228, 224);
+    width: 250px;
+    display: flex;
+    background-color:  rgb(242, 245, 244);
+    margin-top: 15px;
+    margin-right: 310px;
+}
+.kg{
+    height: 52px;
+}
+.mn{
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    border-color: rgb(38, 38, 161);
+    background-color:  rgb(242, 245, 244);
+    margin-right: 420px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.im1{
+    height: 100px;
+}
+.im2{
+    margin-bottom: 30px;
+    height: 50px;
+    border-radius: 10%;
+}
+.im3{
+    border-radius: 20%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.footer1{
+    color: white;
+    background-color: rgb(15, 17, 17);
+}
+.footer2{
+    color: white;
+    display: flex;
+    background-color: black;
+}
+.ft1{
+    width: 30%;
+    display: flex;
+}
+.ft2{
+    width: 30%;
+    justify-content: space-between;
+}
+.w{
+    width: 40%;
+}
+.what_i_do{
+    display: grid;
+    grid-template-columns:463px 463px ;
+    grid-template-rows: 150px 150px 150px 150px;
+    grid-gap: 0.5em;
+}
+.item1{
+    display: flex;
+    text-align: left;
+}
+.item3{
+    display: flex;
+    text-align: left;
+}
+.item2{
+    display: flex;
+    text-align: left;
+}
+.item4{
+    display: flex;
+    text-align: left;
+}
+.item_img1 img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.content1 h3{
+    margin-right: 300px;
+}
+.contact_us_info p{
+    text-align: left;
+}
+.what h2{
+    text-align: left;
+}
+.skills{
+    display: grid;
+    grid-template-columns:450px 450px ;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    grid-gap: 1em;
+}
+.main_info{
+    display: flex;
+}
+.num{
+    width: 55px;
+    height: 25px;
+    border: 1px solid rgb(38, 38, 161);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.descr_info{
+    text-align: left;
+    margin-left: 20px;
+}
+.descr_info p {
+    margin-left: 20px;
+}
+.descr_info h3 {
+    margin-left: 20px;
+}
+.num7{
+    width: 105px;
+    height: 25px;
+    border: 1px solid rgb(38, 38, 161);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.num6{
+    width: 85px;
+    height: 25px;
+    border: 1px solid rgb(38, 38, 161);
+    border-radius: 50px;
+    margin-right: 20px;
+}
+.vs{
+    display: flex;
+    text-align: left;
+}
+.hel{
+    margin-left: 356px;
+}
